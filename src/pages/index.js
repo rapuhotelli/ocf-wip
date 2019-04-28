@@ -23,6 +23,11 @@ const titleCss = css`
   text-align: center;
 `
 
+const container = css`
+  margin: 2rem auto;
+  max-width: 50rem;
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={["OFC", "open", "climate", "fix"]} />
@@ -33,7 +38,7 @@ const IndexPage = () => (
         An open and collaborative approach to achieving maximum climate impact
       </p>
     </div>
-    <div>
+    <div css={container}>
       <h2>Climate change is a complex problem</h2>
       <p>
         Humanity has about 20 years to go from emitting 40 billion tonnes of
