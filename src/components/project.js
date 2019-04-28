@@ -5,9 +5,10 @@ const style = props => css`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 20rem;
-  height: 20rem;
+  max-width: 25rem;
+  height: 25rem;
   background: url("${props.image}");
+  background-size: cover;
   color: white;
   text-decoration: none;
 `
