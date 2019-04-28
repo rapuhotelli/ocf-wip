@@ -23,7 +23,7 @@ const titleCss = css`
   text-align: center;
 `
 
-const container = css`
+const contentContainer = css`
   margin: 2rem auto;
   max-width: 50rem;
 `
@@ -32,13 +32,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={["OFC", "open", "climate", "fix"]} />
     <div css={introScreenContainer}>
-      <h1 css={titleCss}>Test</h1>
       <h1 css={titleCss}>Open Climate Fix</h1>
       <p>
         An open and collaborative approach to achieving maximum climate impact
       </p>
     </div>
-    <div css={container}>
+    <div css={contentContainer}>
       <h2>Climate change is a complex problem</h2>
       <p>
         Humanity has about 20 years to go from emitting 40 billion tonnes of
