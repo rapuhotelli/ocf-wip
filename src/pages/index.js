@@ -9,11 +9,17 @@ const introScreenContainer = css`
   background: url("https://picsum.photos/id/811/400/600") no-repeat center center;
   background-size: cover;
   height: 80vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
 `
 
 const titleCss = css`
   color: white;
   bottom: 20%;
+  align-self: center;
+  text-align: center;
 `
 
 const IndexPage = () => (
