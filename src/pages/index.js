@@ -107,6 +107,14 @@ const IndexPage = () => (
         algorithm and, when they do, help them to get their better forecasts
         into grid control rooms.
       </p>
+
+      <h2>Ongoing projects</h2>
+
+      {/* TODO component? */}
+      <div>
+        <h3>Solar PV nowcasting</h3>
+        <p>Read more about the project</p>
+      </div>
     </div>
   </Layout>
 )
