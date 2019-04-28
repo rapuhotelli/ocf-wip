@@ -30,7 +30,7 @@ const contentContainer = css`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={["OFC", "open", "climate", "fix"]} />
+    <SEO title="Home" keywords={["OCF", "open", "climate", "fix"]} />
     <div css={introScreenContainer}>
       <h1 css={titleCss}>Open Climate Fix</h1>
       <p>
