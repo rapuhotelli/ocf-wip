@@ -4,6 +4,7 @@ import { css, cx } from "@emotion/core"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Project from "../components/project"
 
 const introScreenContainer = css`
   background: url("https://picsum.photos/id/811/400/600") no-repeat center
@@ -49,6 +50,8 @@ const IndexPage = () => (
     <SEO title="Home" keywords={["OCF", "open", "climate", "fix"]} />
     <FirstScreen />
     <SecondScreen />
+
+    <LongText />
   </Layout>
 )
 
@@ -130,5 +133,12 @@ const LongText = () => (
       algorithm and, when they do, help them to get their better forecasts into
       grid control rooms.
     </p>
+
+    <h2>Projects</h2>
+    <Project
+      name="Solar PV nowcasting"
+      link="/page-2"
+      image="https://picsum.photos/id/384/400/600"
+    />
   </div>
 )
