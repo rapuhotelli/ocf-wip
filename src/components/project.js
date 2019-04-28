@@ -8,6 +8,8 @@ const style = props => css`
   max-width: 20rem;
   height: 20rem;
   background: url("${props.image}");
+  color: white;
+  text-decoration: none;
 `
 
 const nameStyle = css`
@@ -22,17 +24,13 @@ const readMoreStyle = css`
   align-items: center;
   padding: 1.5rem;
   background: #088f66;
-  color: white;
-  text-decoration: none;
 `
 
 const Project = props => (
-  <div css={style({ image: props.image })}>
+  <a href={props.link} css={style({ image: props.image })}>
     <h3 css={nameStyle}>{props.name}</h3>
-    <a css={readMoreStyle} href={props.link}>
-      Read more about the project
-    </a>
-  </div>
+    <span css={readMoreStyle}>Read more about the project</span>
+  </a>
 )
 
 export default Project
